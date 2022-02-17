@@ -1,9 +1,9 @@
 .logo {
-    width: 150px;
+  width: 150px;
 }
 
 @media (min-width: 768px) {
-    .header .logo {
-        width: 215px;
-    }
+  .header .logo {
+    width: 215px;
+  }
 }

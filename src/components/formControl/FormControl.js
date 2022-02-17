@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-import './FormControl.css'
+import './FormControl.css';
 
-const FormControl = ({value, children, input}) => (
-    <div className="form-control">
-        <label>{children}</label>   
-        <input value={value} onInput={() => input(event.target.value)}/>   
-    </div>
-) 
+const FormControl = ({ value, children, input }) => (
+  <div className="form-control">
+    <label>{children}</label>
+    <input value={value} onInput={() => input(event.target.value)} />
+  </div>
+);
 
-export default FormControl
+export default FormControl;

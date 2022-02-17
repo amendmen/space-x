@@ -1,12 +1,12 @@
 .header {
-    background-color: #1B1D22;   
-    width: 100%;
-    box-sizing: border-box;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    flex-wrap: wrap;
+  background-color: #1b1d22;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  flex-wrap: wrap;
 }

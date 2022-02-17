@@ -1,65 +1,64 @@
 .shipment {
-    background-color: #2D3038;
-    height: calc(100% - 30px);
-    border-radius: 20px;
-    margin: 20px;
-    margin-top: 10px;
-    padding: 20px 15px;
-    padding-right: 5px;
-    box-sizing: border-box;
-    color: #fff;
+  background-color: #2d3038;
+  height: calc(100% - 30px);
+  border-radius: 20px;
+  margin: 20px;
+  margin-top: 10px;
+  padding: 20px 15px;
+  padding-right: 5px;
+  box-sizing: border-box;
+  color: #fff;
 }
 
 .shipment__wrapper {
-    overflow-y: scroll;
-    height: 100%;
-    padding-right: 5px;
+  overflow-y: scroll;
+  height: 100%;
+  padding-right: 5px;
 }
 .shipment__name {
-  font-size: 28px; 
+  font-size: 28px;
   overflow-wrap: anywhere;
 }
 
 .shipment__email {
-    font-size: 16px; 
-    color: #979797;
-    line-height: 24px;
-    margin-bottom: 30px;
+  font-size: 16px;
+  color: #979797;
+  line-height: 24px;
+  margin-bottom: 30px;
 }
 
 .shipment__result {
-    text-align: center;
-    font-size: 18px;
-    color: #979797;
-    margin-bottom: 10px;
-    margin-top: 50px;
+  text-align: center;
+  font-size: 18px;
+  color: #979797;
+  margin-bottom: 10px;
+  margin-top: 50px;
 }
 
 .shipment__value {
-    text-align: center;
-    font-size: 34px;
+  text-align: center;
+  font-size: 34px;
 }
 
 @media (min-width: 768px) {
-    .shipment {
-        padding: 30px 50px;
-        padding-right: 30px;
-    }
+  .shipment {
+    padding: 30px 50px;
+    padding-right: 30px;
+  }
 
-    .shipment__name {
-        font-size: 64px; 
-    }
+  .shipment__name {
+    font-size: 64px;
+  }
 
-    .shipment__result {
-        text-align: left;
-        font-size: 34px;
-        margin-bottom: 0;
-        margin-top: 30px;
-    }
+  .shipment__result {
+    text-align: left;
+    font-size: 34px;
+    margin-bottom: 0;
+    margin-top: 30px;
+  }
 
-    .shipment__value {
-        text-align: left;
-        font-size: 60px;
-    }
-    
+  .shipment__value {
+    text-align: left;
+    font-size: 60px;
+  }
 }

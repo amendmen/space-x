@@ -1,21 +1,15 @@
-import React from 'react'
+import React from 'react';
 
-import './SideDrawer.css'
+import './SideDrawer.css';
 
-const SideDrawer = ({ isOpen, children}) => {
+const SideDrawer = ({ isOpen, children }) => {
+  let classes = ['sideNav', 'closed'];
 
-    let classes = ['sideNav', 'closed'];
+  if (isOpen) {
+    classes = ['sideNav', 'open'];
+  }
 
-    if(isOpen) {
-        classes = ['sideNav', 'open'];
-    }
+  return <div className={classes.join(' ')}>{children}</div>;
+};
 
-    return (
-        <div className={classes.join(' ')}>    
-           { children}
-        </div>
-    )
-    
-    }
-
-export default SideDrawer
+export default SideDrawer;
