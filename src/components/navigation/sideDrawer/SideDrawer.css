@@ -1,0 +1,30 @@
+.sideNav {
+    position: fixed;
+    height: calc(100vh - 80px);   
+    width: 100vw;
+    top: 80px;
+    left: 0;
+    display: flex;
+    flex-flow: column;
+    background-color: #1B1D22;
+    transition: all .3s;
+}
+
+.closed {
+    transform: translateX(-100%);
+}
+
+.open {
+    transform: translateX(0);
+}
+
+.sideNav .navigation-items {
+    display: flex;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .sideNav {
+        transform: translateX(-100%);
+    }
+}
